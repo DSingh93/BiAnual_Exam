@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-23T04:09:28Z" name="Default suite" finished-at="2022-02-23T04:09:31Z" duration-ms="2909">
+    <groups>
+    </groups>
+    <test started-at="2022-02-23T04:09:28Z" name="Default test" finished-at="2022-02-23T04:09:31Z" duration-ms="2909">
+      <class name="Test_Get">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test_Get@3148f668]" started-at="2022-02-23T04:09:28Z" name="beforeMethod" finished-at="2022-02-23T04:09:29Z" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test_Get.test_01()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test_01()[pri:0, instance:Test_Get@3148f668]" started-at="2022-02-23T04:09:29Z" name="test_01" finished-at="2022-02-23T04:09:30Z" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test_Get@3148f668]" started-at="2022-02-23T04:09:30Z" name="afterMethod" finished-at="2022-02-23T04:09:30Z" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_01 status=SUCCESS method=Test_Get.test_01()[pri:0, instance:Test_Get@3148f668] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test_02()[pri:0, instance:Test_Get@3148f668]" started-at="2022-02-23T04:09:30Z" name="test_02" finished-at="2022-02-23T04:09:31Z" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test_Get@3148f668]" started-at="2022-02-23T04:09:30Z" name="beforeMethod" finished-at="2022-02-23T04:09:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test_Get.test_02()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test_Get@3148f668]" started-at="2022-02-23T04:09:31Z" name="afterMethod" finished-at="2022-02-23T04:09:31Z" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_02 status=SUCCESS method=Test_Get.test_02()[pri:0, instance:Test_Get@3148f668] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test_Get -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
